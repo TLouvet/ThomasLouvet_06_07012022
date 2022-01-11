@@ -9,9 +9,9 @@ function Picture(data, photographer) {
           <a href="#lightbox-modal" title="${title}" onclick="displayLightbox('${picture}')">
             <img src="${picture}" alt="${title}" id="${id}" class="photo clickable-photo" />
           </a>
-          <div style="display:flex; justify-content:space-between; width:100%; color:#901C1C!important; font-size:20px!important;" class="bold">
+          <div class="bold subcard-info">
             <p lang="en">${title} </p>
-            <div id="media-${id}-likes" style="display:flex; align-items:center;">
+            <div id="media-${id}-likes" class="subcard-likes">
               <p >${likes} </p>
               <img class="heart-img smallicon" src="../../assets/icons/heart.png" alt="ajouter un like" onclick="incrementLikes('${id}')" />
             </div>  

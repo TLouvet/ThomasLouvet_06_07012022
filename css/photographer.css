@@ -232,11 +232,19 @@ textarea{
   padding:0 35px 0 35px;
 }
 
-.aside-likes{
+.aside-likes,
+.subcard-likes{
   display: flex;
   align-items: center;
 }
 
+.subcard-info{
+  display:flex; 
+  justify-content:space-between; 
+  width:100%; 
+  color:#901C1C; 
+  font-size:20px;
+}
 aside p {
   font-size:24px; 
   font-weight:700;
