@@ -12,9 +12,9 @@ function Picture(data, photographer) {
           <div style="display:flex; justify-content:space-between; width:100%; color:#901C1C!important; font-size:20px!important;" class="bold">
             <p lang="en">${title} </p>
             <div id="media-${id}-likes" style="display:flex; align-items:center;">
-            <p >${likes} </p>
-            <img class="heart-img" src="../../assets/icons/heart.png" alt="ajouter un like" style="margin-left:5px; height:17px;" onclick="incrementLikes('${id}')" />
-          </div>  
+              <p >${likes} </p>
+              <img class="heart-img" src="../../assets/icons/heart.png" alt="ajouter un like" style="margin-left:5px; height:17px;" onclick="incrementLikes('${id}')" />
+            </div>  
           </div> 
        `;
   
