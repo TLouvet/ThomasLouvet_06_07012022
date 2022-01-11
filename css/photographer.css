@@ -210,3 +210,29 @@ textarea{
   border: none;
   height: 200px;
 }
+
+.aside-info {
+  background-color: #DB8876;
+  display: flex; 
+  justify-content:space-between; 
+  position:fixed; 
+  bottom:0; 
+  right:30px; 
+  width:375px; 
+  padding:0 35px 0 35px;
+}
+
+.aside-likes{
+  display: flex;
+  align-items: center;
+}
+
+aside p {
+  font-size:24px; 
+  font-weight:700;
+}
+
+.aside-likes img {
+  margin-left:5px;
+  height:17px;
+}

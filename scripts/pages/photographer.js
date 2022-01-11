@@ -61,14 +61,14 @@ async function displayAsideInformation(likes, rate){
 
   const body = document.getElementsByTagName('main')[0];
   const likesDisplay = `
-  <aside style="background-color: #DB8876; display: flex; justify-content:space-between; position:fixed; bottom:0; right:30px; width:375px; padding:0 35px 0 35px;">
-    <div style="display:flex; align-items:center">
-      <p id="total-likes" style="font-size:24px; font-weight:700;">${likes} </p>
-      <img src="../../assets/icons/heart_black.png" alt="nombre total de likes" style="margin-left:5px; height:17px;"/>
+  <aside class="aside-info">
+    <div class="aside-likes">
+      <p id="total-likes">${likes} </p>
+      <img src="../../assets/icons/heart_black.png" alt="nombre total de likes"/>
     </div>
-    <p style="font-size:24px; font-weight:700;">${rate}€ / jour</p>
+    <p>${rate}€ / jour</p>
   </aside> 
-  `
+  `;
   body.innerHTML += likesDisplay; 
 }
 
