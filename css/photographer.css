@@ -50,12 +50,22 @@ select {
     margin: 0;
 }
 
+.photograph-header img {
+  width:200px; 
+  height:200px; 
+  border-radius:100%
+}
+
 .subtitle{
     color: #901C1C;
     font-size: 24px;
     margin: 15px 0;
 }
 
+.smallicon{
+  margin-left:5px;
+  height:17px;
+}
 
 .photograph_section {
   display: grid;
@@ -230,9 +240,4 @@ textarea{
 aside p {
   font-size:24px; 
   font-weight:700;
-}
-
-.aside-likes img {
-  margin-left:5px;
-  height:17px;
 }

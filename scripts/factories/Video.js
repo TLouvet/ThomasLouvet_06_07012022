@@ -14,7 +14,7 @@ function Video(data, photographer) {
             <p >${title} </p>
             <div id="media-${id}-likes" style="display:flex; align-items:center;">
               <p >${likes} </p>
-              <img class="heart-img" src="../../assets/icons/heart.png" alt="ajouter un like" style="margin-left:5px; height:17px;" onclick="incrementLikes('${id}')" />
+              <img class="heart-img smallicon" src="../../assets/icons/heart.png" alt="ajouter un like" onclick="incrementLikes('${id}')" />
             </div>  
           </div> 
         </div>`;

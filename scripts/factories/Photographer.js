@@ -29,7 +29,7 @@ function photographerFactory(data) {
         <p id="author_tagline">${tagline}</p>
       </div>
       <button class="contact_button" onclick="displayModal()">Contactez-moi</button>
-      <div><img src=${picture} id="author_picture" alt=${name} style="width:200px; height:200px; border-radius:100%" /></div>`;
+      <div><img src=${picture} id="author_picture" alt=${name} /></div>`;
     
     return card;
   }

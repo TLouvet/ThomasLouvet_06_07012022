@@ -64,7 +64,7 @@ async function displayAsideInformation(likes, rate){
   <aside class="aside-info">
     <div class="aside-likes">
       <p id="total-likes">${likes} </p>
-      <img src="../../assets/icons/heart_black.png" alt="nombre total de likes"/>
+      <img src="../../assets/icons/heart_black.png" class="smallicon" alt="nombre total de likes"/>
     </div>
     <p>${rate}€ / jour</p>
   </aside> 
