@@ -1,5 +1,5 @@
 function Video(data, photographer) {
-    const { title, video, likes, id } = data;
+    const { title, alt, video, likes, id } = data;
   
     const src = `../../assets/images/${photographer}/${video}`;
   
@@ -7,7 +7,7 @@ function Video(data, photographer) {
       const article = document.createElement("article");
       const send = `
         <a href="#lightbox-modal" onclick="displayLightbox('${src}')">
-          <video src=${src} class="photo clickable-photo" aria-label="${title}" paused/>
+          <video src=${src} class="photo clickable-photo" aria-label="${alt}" paused/>
         </a>
         <div class="bold subcard-info">
           <p >${title} </p>

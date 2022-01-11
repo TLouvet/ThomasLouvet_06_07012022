@@ -1,5 +1,5 @@
 function Picture(data, photographer) {
-    const { title, image, likes, id } = data;
+    const { title, alt, image, likes, id } = data;
   
     const picture = `../../assets/images/${photographer}/${image}`;
   
@@ -7,7 +7,7 @@ function Picture(data, photographer) {
       const article = document.createElement("article");
       const send = `
           <a href="#lightbox-modal" title="${title}" onclick="displayLightbox('${picture}')">
-            <img src="${picture}" alt="${title}" id="${id}" class="photo clickable-photo" />
+            <img src="${picture}" alt="${alt}" id="${id}" class="photo clickable-photo" />
           </a>
           <div class="bold subcard-info">
             <p lang="en">${title} </p>
