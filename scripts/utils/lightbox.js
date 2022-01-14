@@ -118,6 +118,9 @@ function getLightboxKeyboardNav() {
         else if (isLightBoxOpen && e.key === "ArrowRight"){
             changeDisplayedMedia(1);
         }
+        else if (isLightBoxOpen && e.key === "Escape"){
+            closeLightbox();
+        }
     })
 }
 
